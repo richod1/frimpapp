@@ -16,16 +16,16 @@ function ImgSlider() {
   return (
     <Carousel {...settings}>
      <Wrap>
-        <img src=""/>
+        <img src="/images/h5.jpg"/>
      </Wrap>
      <Wrap>
-        <img src=""/>
+        <img src="/images/h6.jpg"/>
      </Wrap>
      <Wrap>
-        <img src=""/>
+        <img src="/images/h7.jpg"/>
      </Wrap>
      <Wrap>
-        <img src=""/>
+        <img src="/images/h9.jpg"/>
      </Wrap>
     </Carousel>
   )
@@ -61,7 +61,7 @@ img{
     border:4px solid transparent;
     border-radius:4px;
     width:100%;
-    height:100%;
+    height:70%;
     box-shadow:rgb(0 0 0 / 69%) 0px 26px 30px -10px,
     rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     transition-duration:300ms;
