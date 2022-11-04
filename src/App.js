@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Header from './components/Header';
  import Detailes from './components/Detailes';
  import Login from './components/Login';
+ import Register from './components/Register';
  import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,10 @@ import Header from './components/Header';
     <Route path="/login">
         <Login/>
         </Route >
+
+        <Route path="/register">
+          <Register/>
+        </Route>
         <Route path="/detailes">
         <Detailes/>
         </Route>
