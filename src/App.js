@@ -2,12 +2,37 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import Header from './components/Header';
+ import Detailes from './components/Detailes';
+ import Login from './components/Login';
+ import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
 
-function App() {
+ } from "react-router-dom";
+ function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home />
+
+  <Router>
+        
+        <Header/>
+  <Switch>
+    <Route path="/login">
+        <Login/>
+        </Route >
+        <Route path="/detailes">
+        <Detailes/>
+        </Route>
+        <Route path="/">
+        <Home />
+        </Route>
+  </Switch>
+    
+    
+  </Router>
+      
       
     </div>
   );
