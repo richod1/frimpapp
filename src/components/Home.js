@@ -3,12 +3,14 @@ import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Listings from './Listings'
 import Hotels from './Hotels'
+import Footer from './Footer'
 function Home() {
   return (
     <Container>
       <ImgSlider />
       <Listings/>
       <Hotels/>
+      <Footer/>
 
 
     </Container>
